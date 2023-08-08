@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+  <!-- 
+{} => Tên biến
+() => Tên thẻ, Nếu như trong tên thể có chứa dấu "." Thì coi đó là className
+ -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{meta_title}</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <script src="assets/script.js"></script>
+  </head>
+  <body>
+    <main class="json">
+      <!-- name and description -->
+      <div class="block">
+        <p><span class="key">name</span><span class="attr">{name}</span></p>
+        <div id="typed-strings">{desc}(span)</div>
+        <p><span class="key">description</span><span id="typed"></span></p>
+      </div>
+      <!-- end name and description -->
+      <!-- address -->
+      <div class="block">
+        <p><span class="array-key">address</span></p>
+        <div class="array">{address}(p.array-attr)</div>
+      </div>
+      <!-- end address -->
+      <!-- contact -->
+      <div class="block">
+        <p><span class="list-key">contact</span></p>
+        <div class="list">{contact}</div>
+      </div>
+      <!-- end contact -->
+      <!-- profiles -->
+      <div class="block">
+        <span class="array-key">profiles</span>
+        <div class="array">{profiles}</div>
+      </div>
+      <!-- end profiles -->
+    </main>
+  </body>
+</html>

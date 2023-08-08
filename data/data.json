@@ -1,0 +1,19 @@
+{
+  "meta_title": "F8",
+  "name": "duong nguyen",
+  "desc": ["\"Hello world!\",", "\"This my website\",", "Looks like json"],
+  "address": ["123 add, ress", "Ha Noi", "VietNam"],
+  "contact": {
+    "office": "123 add, ress",
+    "phone": "+1 234 567 890",
+    "email": "haha@email.com"
+  },
+  "profiles": {
+    "facebook": "https://www.facebook.com/duongnguyen321",
+    "twitter": "https://www.twitter.com",
+    "instagram": "https://www.instagram.com",
+    "linkedin": "https://www.linkedin.com",
+    "stackoverflow": "https://www.stackoverflow.com",
+    "github": "https://github.com/duongnguyen321"
+  }
+}
